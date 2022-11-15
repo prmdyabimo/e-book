@@ -79,7 +79,7 @@ class Register extends BaseController
       ];
 
       $usersModel->save($data);
-      session()->setFlashdata('msg', 'You Have Successfully Registered');
+      session()->setFlashdata('msg-success', 'You Have Successfully Registered');
       return redirect()->to(base_url('/login'));
     } else {
       return redirect()->to(base_url('/register'))->withInput();

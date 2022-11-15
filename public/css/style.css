@@ -2,3 +2,8 @@
   color: #333;
   content: "\f070";
 }
+
+#btn-eye-conf-pass.active-conf-pass::before {
+  color: #333;
+  content: "\f070";
+}
