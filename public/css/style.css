@@ -1,0 +1,4 @@
+#btn-eye.active::before {
+  color: #333;
+  content: "\f070";
+}
